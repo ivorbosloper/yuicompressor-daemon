@@ -1,6 +1,6 @@
 ## yuicompressor-daemon
 
-Provide yuicompressor functionality as a service. Avoids jvm startup time if your compression pipeline calls the yuicompressor java process many times, and allows caching over your different developers (TODO).
+Provide yuicompressor functionality as a service. Avoids jvm startup time if your compression pipeline calls the yuicompressor java process many times, and allows caching over your different developers.
 
 ## Example
 

@@ -11,6 +11,7 @@ public class Daemon {
             return;
         }
         int port = Integer.parseInt(args[0]);
+        System.out.println("Starting server on " + port);
         IServer server = new Server(port, new CompressHandler());
         server.start();
     }
